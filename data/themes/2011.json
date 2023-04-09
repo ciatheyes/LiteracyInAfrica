@@ -1,0 +1,446 @@
+{
+   "GH": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-AA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-AH": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-BA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-CP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-EP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-NP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-TV": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-UE": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-UW": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-WP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-110": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-200": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-300": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-400": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-500": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-600": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-700": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE-800": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "NG": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 164798232
+   },
+   "NG-AB": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3256642
+   },
+   "NG-AD": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3674992
+   },
+   "NG-AK": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4625120
+   },
+   "NG-AN": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4805646
+   },
+   "NG-BA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 5515302
+   },
+   "NG-BE": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4942026
+   },
+   "NG-BO": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4944030
+   },
+   "NG-BY": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 1970487
+   },
+   "NG-CR": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3344409
+   },
+   "NG-DE": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4825999
+   },
+   "NG-EB": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2504085
+   },
+   "NG-ED": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3700706
+   },
+   "NG-EK": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2801161
+   },
+   "NG-EN": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3796685
+   },
+   "NG-FC": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2238752
+   },
+   "NG-GO": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2775400
+   },
+   "NG-IM": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4609038
+   },
+   "NG-JI": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 5041491
+   },
+   "NG-KD": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 7102877
+   },
+   "NG-KE": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3802526
+   },
+   "NG-KN": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 11087814
+   },
+   "NG-KO": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3850369
+   },
+   "NG-KT": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 6740479
+   },
+   "NG-KW": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2748148
+   },
+   "NG-LA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 10694915
+   },
+   "NG-NA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2171906
+   },
+   "NG-NI": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4687610
+   },
+   "NG-OG": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4424069
+   },
+   "NG-ON": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4020965
+   },
+   "NG-OS": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4009839
+   },
+   "NG-OY": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 6615061
+   },
+   "NG-PL": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3669993
+   },
+   "NG-RI": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 6162063
+   },
+   "NG-SO": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4301896
+   },
+   "NG-TA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2652880
+   },
+   "NG-YO": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2765286
+   },
+   "NG-ZA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3847793
+   },
+   "RW": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 10762000
+   },
+   "RW-EP": {
+      "literacy": 0.828,
+      "literacyAge": "14-24",
+      "literacySource": "Socio Economic Database Census, National Institute of Statistics of Rwanda",
+      "population": 2609000
+   },
+   "RW-KP": {
+      "literacy": 0.893,
+      "literacyAge": "14-24",
+      "literacySource": "Socio Economic Database Census, National Institute of Statistics of Rwanda",
+      "population": 1059000
+   },
+   "RW-NP": {
+      "literacy": 0.844,
+      "literacyAge": "14-24",
+      "literacySource": "Socio Economic Database Census, National Institute of Statistics of Rwanda",
+      "population": 1981000
+   },
+   "RW-SP": {
+      "literacy": 0.815,
+      "literacyAge": "14-24",
+      "literacySource": "Socio Economic Database Census, National Institute of Statistics of Rwanda",
+      "population": 2527000
+   },
+   "RW-WP": {
+      "literacy": 0.832,
+      "literacyAge": "14-24",
+      "literacySource": "Socio Economic Database Census, National Institute of Statistics of Rwanda",
+      "population": 2586000
+   },
+   "ZA": {
+      "literacy": 0.921,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 50586757
+   },
+   "ZA-EC": {
+      "literacy": 0.897,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 6829958
+   },
+   "ZA-FS": {
+      "literacy": 0.91,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 2759644
+   },
+   "ZA-GT": {
+      "literacy": 0.97,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 11328203
+   },
+   "ZA-LP": {
+      "literacy": 0.86,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 5554657
+   },
+   "ZA-MP": {
+      "literacy": 0.876,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 3657181
+   },
+   "ZA-NC": {
+      "literacy": 0.844,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 1096731
+   },
+   "ZA-NL": {
+      "literacy": 0.913,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 10819130
+   },
+   "ZA-NW": {
+      "literacy": 0.862,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 3253390
+   },
+   "ZA-WC": {
+      "literacy": 0.975,
+      "literacyAge": "20+",
+      "literacySource": "General Houshold Survey 2013, Statistics South Africa",
+      "population": 5287863
+   }
+}

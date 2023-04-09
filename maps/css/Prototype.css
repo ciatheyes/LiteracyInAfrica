@@ -1,0 +1,87 @@
+/* control bar at the top */
+.bar {
+    background-color:   black;
+}
+
+/* buttons */
+.button {
+    border-box:         box-sizing;
+    background-color:   #5a5a5a;
+    background-position:14px 12px;
+    background-repeat:  no-repeat;
+    font-size:          16px;
+    color:              white;
+    padding:            14px 20px 14px 20px;
+    border:             none;
+    cursor:             pointer;
+}
+
+/* legend (popup): */
+/* popup container */
+#legend {
+    position:           absolute;
+    width:              240px;
+    height:             800px;
+    padding:            20px;
+    top:                70px;
+    left:               20px;
+    font-family:        sans-serif;
+    color:              white;
+    background-color:   rgba(90, 90, 90, 0.7);  /* set background color semi-transparent */
+    border:             none;
+    z-index:            10;                     /* make sure legend appears on top of all other elements */
+    display:            none;                   /* hide legend on load */
+}
+/* table */
+.tab {
+    white-space:        nowrap;
+    width:              100%;
+}
+th {
+    width:              50px;
+}
+/* legend title */
+h2 {
+    font-size:          18px;
+}
+/* color sample squares */
+.square{
+    width:              30px;
+    height:             30px;
+}
+#shade1{
+    background-color:   #FF0000;
+}
+#shade2{
+    background-color:   #FF5500;
+}
+#shade3{
+    background-color:   #FFAA00;
+}
+#shade4{
+    background-color:   #FEFF00;
+}
+#shade5{
+    background-color:   #A9FF00;
+}
+#shade6{
+    background-color:   #00FF00;
+}
+#shade7{
+    background-color:   #008800;
+}
+#ageShade1{
+    background-color:   rgba(230, 23, 102, 0.5);
+}
+#ageShade2{
+    background-color:   rgba(220, 35, 228, 0.5);
+}
+#ageShade3{
+    background-color:   rgba(123, 33, 229, 0.5);
+}
+#ageShade4{
+    background-color:   rgba(31, 39, 230, 0.5);
+}
+#ageShade5{
+    background-color:   rgba(28, 139, 231, 0.5);
+}

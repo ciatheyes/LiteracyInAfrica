@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Use correct character set. -->
+        <meta charset="utf-8">
+        <!-- Tell IE to use the latest, best version. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <title>Literacy in Africa - ETH</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="../../../cesium/Build/Cesium/Cesium.js"></script>
+        <style>
+            @import url(../../../cesium/Build/Cesium/Widgets/widgets.css);
+            html, body, #cesiumContainer {
+                width:    100%;
+                height:   100%;
+                margin:   0;
+                padding:  0;
+                overflow: hidden;
+            }
+        </style>
+        <link rel="stylesheet" href="css/Prototype.css" type="text/css"/>
+    </head>
+    <body>
+        <div class="bar">
+            <select class="button" id="dropdownList" onchange="yearChange()">
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+            </select>
+            <button class="button" id="legend_btn">
+                Legend
+            </button>
+            <div id=legend>
+                <h2>Literacy Percentage</h2>
+                <table class="tab">				
+                    <tr>
+                         <th>
+                             <div class="square" id=shade1></div>
+                         </th>
+                         <td>
+                             <p>00.0 - 20.0%</p>
+                         </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=shade2></div>
+                        </th>
+                        <td>
+                            <p>20.1 - 33.3%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=shade3></div>
+                        </th>
+                        <td>
+                            <p>33.4 - 46.6%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=shade4></div>
+                        </th>
+                        <td>
+                            <p>46.7 - 60.0%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=shade5></div>
+                        </th>
+                        <td>
+                            <p>60.1 - 73.3%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=shade6></div>
+                        </th>
+                        <td>
+                            <p>73.4 - 86.6%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=shade7></div>
+                        </th>
+                        <td>
+                            <p>86.7 - 100%</p>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <h2>Literacy: Age Considered</h2>
+                <table class="tab">				
+                    <tr>
+                         <th>
+                             <div class="square" id=ageShade1></div>
+                         </th>
+                         <td>
+                             <p>11+</p>
+                         </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=ageShade2></div>
+                        </th>
+                        <td>
+                            <p>15-24</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=ageShade3></div>
+                        </th>
+                        <td>
+                            <p>15+</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=ageShade4></div>
+                        </th>
+                        <td>
+                            <p>20+</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="square" id=ageShade5></div>
+                        </th>
+                        <td>
+                            <p>adults</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button class="button" id="labels" onclick="toggleLabels()">
+                Toggle Labels
+            </button>
+        </div>
+        <div id="cesiumContainer"></div>
+        <script src="./js/Cylinders.js"></script>
+    </body>
+</html>

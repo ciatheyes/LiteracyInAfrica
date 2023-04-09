@@ -1,0 +1,446 @@
+{
+   "GH": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-AA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-AH": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-BA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-CP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-EP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-NP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-TV": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-UE": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-UW": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "GH-WP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "KE": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 36138746
+   },
+   "KE-110": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 2927238
+   },
+   "KE-200": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4445066
+   },
+   "KE-300": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 3107932
+   },
+   "KE-400": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 5673783
+   },
+   "KE-500": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 1300995
+   },
+   "KE-600": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 5312396
+   },
+   "KE-700": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 9106964
+   },
+   "KE-800": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 4264372
+   },
+   "NG": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 140431790
+   },
+   "NG-AB": {
+      "literacy": 0.777,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2845380
+   },
+   "NG-AD": {
+      "literacy": 0.631,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3178950
+   },
+   "NG-AK": {
+      "literacy": 0.845,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3902051
+   },
+   "NG-AN": {
+      "literacy": 0.781,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 4177828
+   },
+   "NG-BA": {
+      "literacy": 0.311,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 4653066
+   },
+   "NG-BE": {
+      "literacy": 0.646,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 4253641
+   },
+   "NG-BO": {
+      "literacy": 0.453,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 4171104
+   },
+   "NG-BY": {
+      "literacy": 0.81,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 1704515
+   },
+   "NG-CR": {
+      "literacy": 0.756,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2892988
+   },
+   "NG-DE": {
+      "literacy": 0.7,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 4112445
+   },
+   "NG-EB": {
+      "literacy": 0.643,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2176947
+   },
+   "NG-ED": {
+      "literacy": 0.785,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3233366
+   },
+   "NG-EK": {
+      "literacy": 0.677,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2398957
+   },
+   "NG-EN": {
+      "literacy": 0.718,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3267837
+   },
+   "NG-FC": {
+      "literacy": 0.671,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 1406239
+   },
+   "NG-GO": {
+      "literacy": 0.801,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2365040
+   },
+   "NG-IM": {
+      "literacy": 0.789,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3927563
+   },
+   "NG-JI": {
+      "literacy": 0.412,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 4361002
+   },
+   "NG-KD": {
+      "literacy": 0.564,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 6113503
+   },
+   "NG-KE": {
+      "literacy": 0.196,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3256541
+   },
+   "NG-KN": {
+      "literacy": 0.556,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 9401288
+   },
+   "NG-KO": {
+      "literacy": 0.644,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3314043
+   },
+   "NG-KT": {
+      "literacy": 0.231,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 5801584
+   },
+   "NG-KW": {
+      "literacy": 0.57,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2365353
+   },
+   "NG-LA": {
+      "literacy": 0.901,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 9113605
+   },
+   "NG-NA": {
+      "literacy": 0.591,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 1869377
+   },
+   "NG-NI": {
+      "literacy": 0.384,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3954772
+   },
+   "NG-OG": {
+      "literacy": 0.63,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3751140
+   },
+   "NG-ON": {
+      "literacy": 0.764,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3460877
+   },
+   "NG-OS": {
+      "literacy": 0.686,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3416959
+   },
+   "NG-OY": {
+      "literacy": 0.762,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 5580894
+   },
+   "NG-PL": {
+      "literacy": 0.611,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3206531
+   },
+   "NG-RI": {
+      "literacy": 0.837,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 5198716
+   },
+   "NG-SO": {
+      "literacy": 0.332,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3702676
+   },
+   "NG-TA": {
+      "literacy": 0.506,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2294800
+   },
+   "NG-YO": {
+      "literacy": 0.306,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 2321339
+   },
+   "NG-ZA": {
+      "literacy": 0.175,
+      "literacyAge": "adults",
+      "literacySource": "Socioeconomic Statistics, National Bureau of Statistics, Nigeria",
+      "population": 3278873
+   },
+   "RW": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "RW-EP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "RW-KP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "RW-NP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "RW-SP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "RW-WP": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": null
+   },
+   "ZA": {
+      "literacy": null,
+      "literacyAge": null,
+      "literacySource": null,
+      "population": 48270000
+   },
+   "ZA-EC": {
+      "literacy": 0.802,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 6400000
+   },
+   "ZA-FS": {
+      "literacy": 0.91,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 2729000
+   },
+   "ZA-GT": {
+      "literacy": 0.943,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 10965000
+   },
+   "ZA-LP": {
+      "literacy": 0.91,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 5081000
+   },
+   "ZA-MP": {
+      "literacy": 0.893,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 3762000
+   },
+   "ZA-NC": {
+      "literacy": 0.867,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 1095000
+   },
+   "ZA-NL": {
+      "literacy": 0.898,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 9715000
+   },
+   "ZA-NW": {
+      "literacy": 0.853,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 3266000
+   },
+   "ZA-WC": {
+      "literacy": 0.944,
+      "literacyAge": "15-24",
+      "literacySource": "Socio Economic Data of South Africa, 2011, Statistics South Africa",
+      "population": 5256000
+   }
+}
