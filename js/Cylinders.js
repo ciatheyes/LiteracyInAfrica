@@ -71,7 +71,7 @@ function ageConsidered2color(ageConsidered) {
 
 // load window content: initialise Cesium globe with default data (year 2002)
 window.onload = async function () {
-    //"use strict";
+    "use strict";
 
     // show map description popup
     document.getElementById("description_btn").click();
