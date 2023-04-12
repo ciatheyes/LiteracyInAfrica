@@ -46,12 +46,12 @@
                     <h2>Literacy Percentage</h2>
                     <table class="tab">
                         <tr>
-                             <td>
-                                 <div class="square" id=shade1></div>
-                             </td>
-                             <td>
-                                 <p>00.0 - 20.0%</p>
-                             </td>
+                            <td>
+                                <div class="square" id=shade1></div>
+                            </td>
+                            <td>
+                                <p>00.0 - 20.0%</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -114,12 +114,12 @@
                     <h2>Literacy: Age Considered</h2>
                     <table class="tab">
                         <tr>
-                             <td>
-                                 <div class="square" id=ageShade1></div>
-                             </td>
-                             <td>
-                                 <p>11+</p>
-                             </td>
+                            <td>
+                                <div class="square" id=ageShade1></div>
+                            </td>
+                            <td>
+                                <p>11+</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -148,7 +148,7 @@
                         <tr>
                             <td>
                                 <div class="square" id=ageShade5></div>
-                            </th>
+                            </td>
                             <td>
                                 <p>adults</p>
                             </td>
@@ -159,7 +159,7 @@
                     Toggle Labels
                 </button>
             </div>
-            <div id="mapTitle">Literacy in Africa (in the context of absolute population numbers)</div>
+            <div id="mapTitle">Literacy in Africa (in the context of population density)</div>
             <div id="rightContainer">
                 <button class="button" id="description_btn">
                     Toggle Map Description
@@ -174,20 +174,19 @@
                         population density and how important it is to know which measure one is talking about.
                     </p>
                     <p>
-                        In the current view, the columns represent the absolute population counts (or estimates, if no
-                        census data is available). Additionally, the underlying choropleth maps shows the age range
-                        considered during the data acquisition of these literacy rates, as this varies greatly.
+                        In the current view, the volume of the columns corresponds to the absolute population count (or
+                        estimates, if no census data is available).
                     </p>
                     <p>
                         Clicking on one of the columns, shows further information about that specific area; such as
                         e.g., name or the exact literacy/population values.
                     </p>
                     <p>
-                        To access the map showing population density, click on the button below:
+                        To access the map showing absolute population numbers, click on the button below:
                     </p>
-                    <button class="button" id="switch_map" onclick = "window.location.href='Extrude.html';"
+                    <button class="button" id="switch_map" onclick = "window.location.href='index.html';"
                             style="width: 100%; border: 2px solid white; letter-spacing: 1px;">
-                        <b>To the Map Showing Population Density</b>
+                        <b>To the Map Showing Absolute Population Numbers</b>
                     </button>
                 </div>
                 <button class="button" id="imprint_btn">
@@ -251,6 +250,6 @@
             </div>
         </div>
         <div id="cesiumContainer"></div>
-        <script src="js/Cylinders.js"></script>
+        <script src="js/Extrude.js"></script>
     </body>
 </html>
