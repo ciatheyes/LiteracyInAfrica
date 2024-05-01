@@ -117,16 +117,19 @@
             </div>
             <div id="mapTitle">Literacy in Africa (in the context of population density)</div>
             <div id="rightContainer">
+                <button class="button" onclick = "window.location.href='index.html';">
+                    Switch to Absolute Population Numbers
+                </button>
                 <button class="button" id="description_btn">
                     Toggle Map Description
                 </button>
                 <div class="popup" id="description">
                     <p>
-                        This map shows the literacy rates (color of the columns) of five African countries (Ghana, Kenya,
+                        This map shows the literacy rates (color) of five African countries (Ghana, Kenya,
                         Nigeria, Rwanda, South Africa) over time and in the context of either absolute population counts
-                        or population density (height of the columns). The aim of this map is to visualise the spatial
+                        or population density (extrusion height). The aim of this map is to visualise the spatial
                         differences and temporal development of the literacy rates and their possible relation to
-                        population numbers. Tt also illustrates the difference between absolute population counts and
+                        population numbers. It also illustrates the difference between absolute population counts and
                         population density and how important it is to know which measure one is talking about.
                     </p>
                     <p>
@@ -138,11 +141,12 @@
                         e.g., name or the exact literacy/population values.
                     </p>
                     <p>
-                        To access the map showing absolute population numbers, click on the button below:
+                        To access the map showing absolute population numbers, click <a href="index.html">here</a> or
+                        use the button in the header.
                     </p>
-                    <button class="button" id="switch_map" onclick = "window.location.href='index.html';"
+                    <button class="button" id="switch_map" onclick = "document.getElementById('description_btn').click();"
                             style="width: 100%; border: 2px solid white; letter-spacing: 1px;">
-                        <b>To the Map Showing Absolute Population Numbers</b>
+                        <b>To the Map</b>
                     </button>
                 </div>
                 <button class="button" id="imprint_btn">

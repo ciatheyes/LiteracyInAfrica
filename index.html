@@ -148,7 +148,7 @@
                         <tr>
                             <td>
                                 <div class="square" id=ageShade5></div>
-                            </th>
+                            </td>
                             <td>
                                 <p>adults</p>
                             </td>
@@ -161,6 +161,9 @@
             </div>
             <div id="mapTitle">Literacy in Africa (in the context of absolute population numbers)</div>
             <div id="rightContainer">
+                <button class="button" onclick = "window.location.href='Extrude.html';">
+                        Switch to Population Density
+                </button>
                 <button class="button" id="description_btn">
                     Toggle Map Description
                 </button>
@@ -170,7 +173,7 @@
                         Nigeria, Rwanda, South Africa) over time and in the context of either absolute population counts
                         or population density (height of the columns). The aim of this map is to visualise the spatial
                         differences and temporal development of the literacy rates and their possible relation to
-                        population numbers. Tt also illustrates the difference between absolute population counts and
+                        population numbers. It also illustrates the difference between absolute population counts and
                         population density and how important it is to know which measure one is talking about.
                     </p>
                     <p>
@@ -183,11 +186,12 @@
                         e.g., name or the exact literacy/population values.
                     </p>
                     <p>
-                        To access the map showing population density, click on the button below:
+                        To access the map showing population density, click <a href="Extrude.html">here</a> or use the
+                        button in the header.
                     </p>
-                    <button class="button" id="switch_map" onclick = "window.location.href='Extrude.html';"
+                    <button class="button" id="switch_map" onclick = "document.getElementById('description_btn').click();"
                             style="width: 100%; border: 2px solid white; letter-spacing: 1px;">
-                        <b>To the Map Showing Population Density</b>
+                        <b>To the Map</b>
                     </button>
                 </div>
                 <button class="button" id="imprint_btn">

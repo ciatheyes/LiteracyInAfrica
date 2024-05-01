@@ -83,8 +83,9 @@ window.onload = async function () {
         strokeWidth:    3
     });
     viewer.dataSources.add(polygonDataSource);
-    
-    // add billboards for source and age considered data and labels for country names
+
+    // style polygons:
+    // create variables
     var polygons = polygonDataSource.entities.values, // array containing the polygons
         i,              // iterator for for-loop below
         //cylinder,       // cylinder
