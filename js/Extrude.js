@@ -77,7 +77,7 @@ window.onload = async function () {
     document.getElementById("description_btn").click();
     
     // load polygons
-    var polygonDataSource = await new Cesium.GeoJsonDataSource().load('../data/polygons/polygons.geojson', {
+    var polygonDataSource = await new Cesium.GeoJsonDataSource().load('data/polygons/polygons.geojson', {
         stroke:         Cesium.Color.BLACK,
         fill:           Cesium.Color.DIMGREY.withAlpha(0.5),
         strokeWidth:    3
@@ -247,7 +247,7 @@ async function yearChange() {
     currentYear = parseInt(document.getElementById("dropdownList").value, 10);
     
     // load thematic data (from JSON file)
-    const response = await fetch('../data/themes/' + currentYear + '.json');
+    const response = await fetch('data/themes/' + currentYear + '.json');
     const thematicData = await response.json();
     updatePolygons(thematicData);
 }
