@@ -255,6 +255,10 @@
             </div>
         </div>
         <div id="cesiumContainer"></div>
+        <div id="lag-notice">
+            <div id="lag-notice-text">This web map is hosted on GitHub Pages, which is why the data loads quite slowly. Thus, give it some seconds at the beginning and when you switch between views/data types or change the year. Moving around the globe and changing the zoom level may also help.</div>
+            <button class="button" id="lag-notice-close-button" onclick="document.getElementById('lag-notice').style.display = 'none';">Close</button>
+        </div>
         <script src="js/Cylinders.js"></script>
     </body>
 </html>

@@ -24,7 +24,7 @@ body {
 /* buttons */
 .button {
     border-box:         box-sizing;
-    background-color: rgba(157, 157, 157, 0);    /* set background transparent */
+    background-color:   rgba(157, 157, 157, 0);    /* set background transparent */
     background-position:14px 12px;
     background-repeat:  no-repeat;
     font-size:          16px;
@@ -99,7 +99,7 @@ body {
     bottom:             auto;
     max-height:         50%;
     text-align:         left;
-    background-color:   rgba(90, 90, 90, 0.9);    /* set background transparent */
+    background-color:   rgba(90, 90, 90, 0.9);    /* set background slightly transparent */
 }
 
 /* imprint */
@@ -107,6 +107,34 @@ body {
     right:               20px;
     width:              400px;
     height:             400px;
+}
+
+/* lag notice banner at the bottom for GitHub Pages hosting */
+#lag-notice {
+    position:           absolute;
+    left:               0;
+    right:              0;
+    bottom:             0;
+    max-height:         fit-content;
+    padding:            1em;
+    background-color:   rgb(166 25 1 / 80%);    /* set background slightly transparent */
+    color:              white;
+    display:            flex;
+    flex-direction:     row;
+    gap:                1em;
+}
+
+#lag-notice-text {
+    text-align:         justify;
+}
+
+/* close button of the lag notice */
+#lag-notice-close-button {
+    border:             2px solid white;
+    letter-spacing:     1px;
+}
+#lag-notice-close-button:hover {
+    background-color:   rgba(96, 15, 0, 0.8);
 }
 
 /* table */
@@ -138,7 +166,7 @@ h2 {
 .square{
     width:              30px;
     height:             30px;
-    margin-right:      1em;
+    margin-right:       1em;
 }
 #shade1{
     background-color:   #FF0000;
