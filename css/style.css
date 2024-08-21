@@ -62,10 +62,6 @@ body {
     overflow-y:         auto;                   /* make legend scrollable */
 }
 
-.cesium-viewer-toolbar {
-    width: 50px;
-}
-
 /* width */
 ::-webkit-scrollbar {
     width: 13px;
