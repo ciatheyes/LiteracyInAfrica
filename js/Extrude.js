@@ -262,12 +262,16 @@ function toggleLabels() {
         for (j = 0; j < polygons.length; j++) {
             polygons[j].label.show = false;
         }
+        // update toggle button text
+        document.getElementById("labels").innerText = "Toggle Labels On";
         labelsOn = false;
     } else {
         // iterate over all polygons and show labels
         for (j = 0; j < polygons.length; j++) {
             polygons[j].label.show = true;
         }
+        // update toggle button text
+        document.getElementById("labels").innerText = "Toggle Labels Off";
         labelsOn = true;
     }
 }

@@ -284,13 +284,19 @@ function toggleLabels() {
         // iterate over all cylinders and hide labels
         for (j = 0; j < cylinders.length; j++) {
             cylinders[j].label.show = false;
+
         }
+        // update toggle button text
+        document.getElementById("labels").innerText = "Toggle Labels On";
         labelsOn = false;
     } else {
         // iterate over all cylinders and show labels
         for (j = 0; j < cylinders.length; j++) {
             cylinders[j].label.show = true;
+
         }
+        // update toggle button text
+        document.getElementById("labels").innerText = "Toggle Labels Off";
         labelsOn = true;
     }
 }
