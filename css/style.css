@@ -23,7 +23,7 @@ body {
 
 /* buttons */
 .button {
-    border-box:         box-sizing;
+    box-sizing:         border-box;
     background-color:   rgba(157, 157, 157, 0);    /* set background transparent */
     background-position:14px 12px;
     background-repeat:  no-repeat;
@@ -35,9 +35,6 @@ body {
 }
 .button:hover {
     background-color:   #555555;
-}
-.button:active {
-    background-color:   #555555
 }
 
 #mapTitle {
@@ -63,6 +60,10 @@ body {
     z-index:            10;                     /* make sure legend appears on top of all other elements */
     display:            none;                   /* hide legend on load */
     overflow-y:         auto;                   /* make legend scrollable */
+}
+
+.cesium-viewer-toolbar {
+    width: 50px;
 }
 
 /* width */
