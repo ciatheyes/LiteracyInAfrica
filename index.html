@@ -12,7 +12,7 @@
         <script src="https://cesium.com/downloads/cesiumjs/releases/1.104/Build/Cesium/Cesium.js"></script>
         <style>
             @import url(https://cesium.com/downloads/cesiumjs/releases/1.104/Build/Cesium/Widgets/widgets.css);
-            html, body, #cesiumContainer {
+            html, body, #cesium-container {
                 width:    100%;
                 height:   100%;
                 margin:   0;
@@ -27,8 +27,8 @@
     </head>
     <body>
         <div class="bar">
-            <div id="leftContainer">
-                <select class="button" id="dropdownList" onchange="yearChange()">
+            <div id="left-container">
+                <select class="button" id="dropdown-list" onchange="yearChange()">
                     <option value="2002">2002</option>
                     <option value="2003">2003</option>
                     <option value="2004">2004</option>
@@ -42,7 +42,7 @@
                     <option value="2012">2012</option>
                     <option value="2013">2013</option>
                 </select>
-                <button class="button" id="legend_btn">
+                <button class="button" id="legend-button">
                     Toggle Legend
                 </button>
                 <div class="popup" id="legend">
@@ -162,15 +162,15 @@
                     Toggle Labels Off
                 </button>
             </div>
-            <div id="mapTitle">
-                <div id="mainTitle">Literacy in Africa</div>
-                <div id="titleAddition">In the context of absolute population numbers</div>
+            <div id="map-title">
+                <div id="main-title">Literacy in Africa</div>
+                <div id="title-addition">In the context of absolute population numbers</div>
             </div>
-            <div id="rightContainer">
+            <div id="right-container">
                 <button class="button" onclick = "window.location.href='Extrude.html';">
                         Switch to Population Density
                 </button>
-                <button class="button" id="description_btn">
+                <button class="button" id="description-button">
                     Toggle Map Description
                 </button>
                 <div class="popup" id="description">
@@ -198,12 +198,11 @@
                         To access the map showing population density, click <a href="Extrude.html">here</a> or use the
                         button in the header.
                     </p>
-                    <button class="button" id="switch_map" onclick = "document.getElementById('description_btn').click();"
-                            style="width: 100%; border: 2px solid white; letter-spacing: 1px;">
+                    <button class="button" id="to-map" onclick = "document.getElementById('description-button').click();">
                         <b>To the Map</b>
                     </button>
                 </div>
-                <button class="button" id="imprint_btn">
+                <button class="button" id="imprint-button">
                     Toggle Imprint
                 </button>
                 <div class="popup" id="imprint">
@@ -263,7 +262,7 @@
                 </div>
             </div>
         </div>
-        <div id="cesiumContainer"></div>
+        <div id="cesium-container"></div>
         <div id="lag-notice">
             <div id="lag-notice-text">This web map is hosted on GitHub Pages, which is why the data loads quite slowly. Thus, give it some seconds at the beginning and when you switch between views/data types or change the year. Moving around the globe and changing the zoom level may also help.</div>
             <button class="button" id="lag-notice-close-button" onclick="document.getElementById('lag-notice').style.display = 'none';">Close</button>

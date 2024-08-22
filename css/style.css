@@ -12,7 +12,7 @@ body {
 }
 
 /* container for all items aligned to the left */
-#leftContainer {
+#left-container {
     align-self:         stretch;
     display:            flex;
     flex:               1;
@@ -22,7 +22,7 @@ body {
 }
 
 /* container for all items aligned to the right */
-#rightContainer {
+#right-container {
     align-self:         stretch;
     display:            flex;
     flex:               1;
@@ -51,12 +51,19 @@ body {
     background-color:   #555555
 }
 
-#dropdownList {
+#dropdown-list {
     padding-right:      0;
     margin-right:       20px;
 }
 
-#mapTitle {
+#to-map {
+    width:              100%;
+    border:             2px solid white;
+    letter-spacing:     1px;
+    text-align:         center;
+}
+
+#map-title {
     font-family:        "Vollkorn", serif;
     font-optical-sizing:auto;
     font-style:         normal;
@@ -71,13 +78,13 @@ body {
     align-items:        center;
 }
 
-#mainTitle {
+#main-title {
     color:              #00baff;
     font-size:          24px;
     font-weight:        750;
 }
 
-#titleAddition {
+#title-addition {
     color: #0098ce;
     font-size:          20px;
     font-weight:        400;

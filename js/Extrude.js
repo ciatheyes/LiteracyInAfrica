@@ -11,7 +11,7 @@ var currentYear = 2002,
     selectedImageryProviderViewModel = defaultImageryProviderViewModels.find(function(model) {
         return model.name == 'Natural Earth\u00a0II';
     }),                                                     // custom imagery provider
-    viewer = new Cesium.Viewer('cesiumContainer', {         // create and add Cesium globe
+    viewer = new Cesium.Viewer('cesium-container', {         // create and add Cesium globe
         timeline: false,
         animation: false,
         imageryProviderViewModels: defaultImageryProviderViewModels,
@@ -74,7 +74,7 @@ window.onload = async function () {
     "use strict";
 
     // show map description popup
-    document.getElementById("description_btn").click();
+    document.getElementById("description-button").click();
     
     // load polygons
     var polygonDataSource = await new Cesium.GeoJsonDataSource().load('data/polygons/polygons.geojson', {
@@ -135,7 +135,7 @@ window.onload = async function () {
     }
 
     // load and display data for year 2002
-    document.getElementById("dropdownList").value = '2002';
+    document.getElementById("dropdown-list").value = '2002';
     await yearChange();
     
     // zoom to entities
@@ -244,7 +244,7 @@ function updatePolygons(thematicData) {
 // adapt thematic data to the year chosen
 async function yearChange() {
     "use strict";
-    currentYear = parseInt(document.getElementById("dropdownList").value, 10);
+    currentYear = parseInt(document.getElementById("dropdown-list").value, 10);
     
     // load thematic data (from JSON file)
     const response = await fetch('data/themes/' + currentYear + '.json');
@@ -278,21 +278,21 @@ function toggleLabels() {
 
 // toggle imprint
 $(document).ready(function(){
-    $('#imprint_btn').click(function() {
+    $('#imprint-button').click(function() {
         $('#imprint').fadeToggle("fast");
     });
 });
 
 // toggle legend
 $(document).ready(function(){
-    $('#legend_btn').click(function() {
+    $('#legend-button').click(function() {
         $('#legend').fadeToggle("fast");
     });
 });
 
 // toggle map description
 $(document).ready(function(){
-    $('#description_btn').click(function() {
+    $('#description-button').click(function() {
         $('#description').fadeToggle("fast");
     });
 });
