@@ -1,4 +1,4 @@
-# 3D Web Map of Literacy in Africa in the Context of Population Numbers
+# 3D Web Map of Literacy in Africa in the Context of Population Numbers and Density
 
 A student project at ETH Zurich in 2017.
 
