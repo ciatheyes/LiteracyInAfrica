@@ -65,7 +65,7 @@ body {
     justify-content:    center;
     flex-wrap:          wrap;
     gap:                1em;
-    align-items:        stretch;
+    align-items:        center;
 }
 
 #mainTitle {
@@ -78,7 +78,7 @@ body {
     color: #0098ce;
     font-size:          20px;
     font-weight:        400;
-    align-self:         center;
+    /*align-self:         center;*/
 }
 
 /* popup container */
@@ -154,13 +154,13 @@ body {
     display:            flex;
     flex-direction:     row;
     justify-content:    space-between;
-    align-items:        stretch;
+    align-items:        center;
     gap:                1em;
 }
 
 #lag-notice-text {
     display:            flex;
-    align-self:         center;
+    /*align-self:         center;*/
     text-align:         justify;
 }
 
